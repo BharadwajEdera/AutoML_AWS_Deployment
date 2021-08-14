@@ -1,0 +1,168 @@
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:11 - INFO -main.py -                                                        
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:11 - INFO -main.py -  *******----------*******######******-------------******
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:11 - INFO -main.py -  *******----------NEW REQUEST STARTED :: Clustering-------------******
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:11 - INFO -main.py -  --------Received Input from User-------------
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:11 - INFO -main.py -  Deleted all Existing Old Files in the result Directory
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:11 - INFO -Type_of_Dataset.py -  Reading csv file successful
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:11 - INFO -main.py -  csv Dataset reading successful
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:11 - INFO -main.py -   Removed  Special Characters in Column names of Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:11 - INFO -main.py -   Saved dataset into result directory as Train.csv 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:11 - INFO -DataBase.py -   Successfully configured  'secure-connect-automldb.zip' in cassandra database 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:12 - INFO -DataBase.py -   Successfully created Cluster in cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:13 - WARNING -cassandra.cluster -  Downgrading core protocol version from 66 to 65 for 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:fcc02a69-b515-42ca-a73f-80b98e551352. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:15 - WARNING -cassandra.cluster -  Downgrading core protocol version from 65 to 5 for 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:fcc02a69-b515-42ca-a73f-80b98e551352. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:16 - ERROR -cassandra.connection -  Closing connection <AsyncoreConnection(1916620868864) 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:fcc02a69-b515-42ca-a73f-80b98e551352> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:16 - WARNING -cassandra.cluster -  Downgrading core protocol version from 5 to 4 for 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:fcc02a69-b515-42ca-a73f-80b98e551352. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:19 - INFO -cassandra.policies -  Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:fcc02a69-b515-42ca-a73f-80b98e551352'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:24 - INFO -DataBase.py -   Successfully connected to Cluster in cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:24 - INFO -DataBase.py -   Successful in checking the existing tables in cassandra database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:24 - INFO -DataBase.py -  Table with the given table name already Exists in Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:39 - INFO -DataBase.py -  Successfully deleted the Table
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:23:40 - INFO -DataBase.py -  Successfully Created new table in Cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:04 - INFO -DataBase.py -  Successfully Inserted data into Cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:04 - INFO -DataBase.py -   Successful in DataFrame to Database 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:05 - INFO -DataBase.py -  Successfully converted the Database dataframe columns to same as Entered dataframe columns 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:05 - INFO -DataBase.py -  Successfully converted data in database to Dataframe 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:05 - INFO -main.py -   The dataset is successfully Loaded into Cassandra Database 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:05 - INFO -main.py -   The Table from Cassandra Database is successfully Loaded into Dataframe  
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:05 - INFO -missing_values.py -  Missing values handled Successfully with RANDOM SAMPLE IMPUTATION
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:05 - INFO -Handle_Categorical.py -  Removed object type unique Categories > 20
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:05 - INFO -Handle_Categorical.py -  Removed int64 type unique Categories > 20
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:05 - INFO -Handle_Categorical.py -  Handled object type Categories with Frequent categories imputation
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:05 - INFO -Outliers.py -  Outlier removed Successfully with IQR,LB,UB
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:05 - INFO -Feature_Scaling.py -  DataFrame Scaled with STANDARDIZATION (mean = 0 , variance = 1)
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -Feature_Extraction.py -  Number of Columns Reduced From 16 to 6 using PCA with KNEE =6
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -main.py -  train_test_split is successful with Train : 75 % , Test : 25 % 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -Clustering.py -  Saved kmeans_Model : as kmeans.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -Clustering.py -  K-Means is performed on the Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -Clustering.py -  Saved K-Means Model as K-Means.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -Clustering.py -  AffinityPropagation is performed on the Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -Clustering.py -  Saved AffinityPropagation Model as AffinityPropagation.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -Clustering.py -  SpectralClustering is performed on the Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -Clustering.py -  Saved SpectralClustering Model as SpectralClustering.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -Clustering.py -  AgglomerativeClustering is performed on the Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -Clustering.py -  Saved AgglomerativeClustering Model as AgglomerativeClustering.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 17:24:06 - INFO -werkzeug -  127.0.0.1 - - [14/Aug/2021 17:24:06] "POST /AutoML HTTP/1.1" 200 -
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:41 - INFO -main.py -                                                        
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:41 - INFO -main.py -  *******----------*******######******-------------******
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:41 - INFO -main.py -  *******----------NEW REQUEST STARTED :: Clustering-------------******
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:41 - INFO -main.py -  --------Received Input from User-------------
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:41 - INFO -main.py -  Deleted all Existing Old Files in the result Directory
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:41 - INFO -Type_of_Dataset.py -  Reading csv file successful
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:41 - INFO -main.py -  csv Dataset reading successful
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:41 - INFO -main.py -   Removed  Special Characters in Column names of Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:41 - INFO -main.py -   Saved dataset into result directory as Train.csv 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:41 - INFO -DataBase.py -   Successfully configured  'secure-connect-automldb.zip' in cassandra database 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:44 - INFO -DataBase.py -   Successfully created Cluster in cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:45 - WARNING -cassandra.cluster -  Downgrading core protocol version from 66 to 65 for 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:fcc02a69-b515-42ca-a73f-80b98e551352. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:47 - WARNING -cassandra.cluster -  Downgrading core protocol version from 65 to 5 for 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:fcc02a69-b515-42ca-a73f-80b98e551352. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:48 - ERROR -cassandra.connection -  Closing connection <AsyncoreConnection(1721146816544) 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:fcc02a69-b515-42ca-a73f-80b98e551352> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:48 - WARNING -cassandra.cluster -  Downgrading core protocol version from 5 to 4 for 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:fcc02a69-b515-42ca-a73f-80b98e551352. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:51 - INFO -cassandra.policies -  Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:fcc02a69-b515-42ca-a73f-80b98e551352'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:55 - INFO -DataBase.py -   Successfully connected to Cluster in cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:55 - INFO -DataBase.py -   Successful in checking the existing tables in cassandra database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:25:55 - INFO -DataBase.py -  Table with the given table name already Exists in Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:15 - INFO -DataBase.py -  Successfully deleted the Table
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:17 - INFO -DataBase.py -  Successfully Created new table in Cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:41 - INFO -DataBase.py -  Successfully Inserted data into Cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:41 - INFO -DataBase.py -   Successful in DataFrame to Database 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:42 - INFO -DataBase.py -  Successfully converted the Database dataframe columns to same as Entered dataframe columns 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:42 - INFO -DataBase.py -  Successfully converted data in database to Dataframe 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:42 - INFO -main.py -   The dataset is successfully Loaded into Cassandra Database 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:42 - INFO -main.py -   The Table from Cassandra Database is successfully Loaded into Dataframe  
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:42 - INFO -missing_values.py -  Missing values handled Successfully with RANDOM SAMPLE IMPUTATION
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:42 - INFO -Handle_Categorical.py -  Removed object type unique Categories > 20
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:42 - INFO -Handle_Categorical.py -  Removed int64 type unique Categories > 20
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:42 - INFO -Handle_Categorical.py -  Handled object type Categories with Frequent categories imputation
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:42 - INFO -Outliers.py -  Outlier removed Successfully with IQR,LB,UB
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:42 - INFO -Feature_Scaling.py -  DataFrame Scaled with STANDARDIZATION (mean = 0 , variance = 1)
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:44 - INFO -Feature_Extraction.py -  Number of Columns Reduced From 16 to 6 using PCA with KNEE =6
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:44 - INFO -main.py -  train_test_split is successful with Train : 75 % , Test : 25 % 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -Clustering.py -  Saved kmeans_Model : as kmeans.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -Clustering.py -  K-Means is performed on the Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -Clustering.py -  Saved K-Means Model as K-Means.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -Clustering.py -  AffinityPropagation is performed on the Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -Clustering.py -  Saved AffinityPropagation Model as AffinityPropagation.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -Clustering.py -  SpectralClustering is performed on the Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -Clustering.py -  Saved SpectralClustering Model as SpectralClustering.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -Clustering.py -  AgglomerativeClustering is performed on the Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -Clustering.py -  Saved AgglomerativeClustering Model as AgglomerativeClustering.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -werkzeug -  127.0.0.1 - - [14/Aug/2021 18:26:45] "POST /AutoML HTTP/1.1" 200 -
