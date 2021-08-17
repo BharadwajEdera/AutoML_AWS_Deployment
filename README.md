@@ -46,15 +46,15 @@ $ git push heroku master
 ```
 ## Documentation
 
-[HLD](https://github.com/BharadwajEdera/AutoML_AWS_Deployment/blob/main/Documents%20AutoML/01%20Auto_ML_HLD.pdf)
+[HLD](https://drive.google.com/file/d/1GqmgilVBnPXb63GlzbZmqhZlWWhHsIFv/view?usp=sharing)
 
-[LLD](https://github.com/BharadwajEdera/AutoML_AWS_Deployment/blob/main/Documents%20AutoML/02%20Auto_ML_LLD.pdf)
+[LLD](https://drive.google.com/file/d/1K2-q7gQxQ24d5upf5DiJ4RBb0hJRNlcO/view?usp=sharing)
 
-[Architecture Document](https://github.com/BharadwajEdera/AutoML_AWS_Deployment/blob/main/Documents%20AutoML/03%20Auto_ML_Architecture.pdf)
+[Architecture Document](https://drive.google.com/file/d/1QvyQqINzSr6emyRZ7ES2DZ2OZ_9dT2O5/view?usp=sharing)
 
-[Wire Frame Document](https://github.com/BharadwajEdera/AutoML_AWS_Deployment/blob/main/Documents%20AutoML/04%20Auto_ML_WireFrame_Document.pdf)
+[Wire Frame Document](https://drive.google.com/file/d/1NZbAauk0vlB14gQenYvSEPnCAHDC_Cxp/view?usp=sharing)
 
-[DPR](https://github.com/BharadwajEdera/AutoML_AWS_Deployment/blob/main/Documents%20AutoML/05%20AutoML_DPR.pdf)
+[DPR](https://drive.google.com/file/d/19RxsoPGtnAC3fayCbmm5DNG0rMzIalP_/view?usp=sharing)
 ## 🔗 Links
 
 ### Bharadwaja
