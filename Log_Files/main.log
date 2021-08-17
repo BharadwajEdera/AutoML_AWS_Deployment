@@ -304,3 +304,43 @@ Traceback (most recent call last):
 cassandra.OperationTimedOut: errors=None, last_host=None
 DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:23 - INFO -cassandra.cluster -  Connection pools established for node 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d
 DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:26 - INFO -cassandra.cluster -  Connection pools established for node 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:26 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559315948736) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:26 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559579584976) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:26 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559313406416) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:26 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559248786144) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:26 - WARNING -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4 has been marked down
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:26 - WARNING -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d has been marked down
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:26 - WARNING -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a has been marked down
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:34 - WARNING -cassandra.pool -  Error attempting to reconnect to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4, scheduling retry in 1.76 seconds: errors=Timed out creating connection (5 seconds), last_host=None
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:34 - WARNING -cassandra.cluster -  [control connection] Error connecting to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 840, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:37 - INFO -cassandra.pool -  Successful reconnection to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d, marking node up if it isn't already
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:37 - INFO -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d may be up; will prepare queries and open connection pool
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:37 - INFO -cassandra.pool -  Successful reconnection to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a, marking node up if it isn't already
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:37 - INFO -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a may be up; will prepare queries and open connection pool
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:40 - INFO -cassandra.pool -  Successful reconnection to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4, marking node up if it isn't already
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:40 - INFO -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4 may be up; will prepare queries and open connection pool
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:42 - INFO -cassandra.cluster -  Connection pools established for node 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:43 - INFO -cassandra.cluster -  Connection pools established for node 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:44:44 - INFO -cassandra.cluster -  Connection pools established for node 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 19:45:01 - WARNING -cassandra.cluster -  [control connection] Error connecting to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1073, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1071, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1572, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
