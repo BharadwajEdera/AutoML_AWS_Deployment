@@ -166,3 +166,141 @@ DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -Clustering.py -  Aggl
 DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -Clustering.py -  Saved AgglomerativeClustering Model as AgglomerativeClustering.pickle
 
 DESKTOP-CBBFMQL - 192.168.0.5 - 14-Aug-21 18:26:45 - INFO -werkzeug -  127.0.0.1 - - [14/Aug/2021 18:26:45] "POST /AutoML HTTP/1.1" 200 -
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:30 - INFO -main.py -                                                        
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:30 - INFO -main.py -  *******----------*******######******-------------******
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:30 - INFO -main.py -  *******----------NEW REQUEST STARTED :: Classification-------------******
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:30 - INFO -main.py -  --------Received Input from User-------------
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:30 - INFO -main.py -  Deleted all Existing Old Files in the result Directory
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:30 - INFO -Type_of_Dataset.py -  Reading csv file successful
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:30 - INFO -main.py -  csv Dataset reading successful
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:30 - INFO -main.py -   Removed  Special Characters in Column names of Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:30 - INFO -main.py -   Saved dataset into result directory as Train.csv 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:30 - INFO -DataBase.py -   Successfully configured  'secure-connect-automldb.zip' in cassandra database 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:33 - INFO -DataBase.py -   Successfully created Cluster in cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:34 - WARNING -cassandra.cluster -  Downgrading core protocol version from 66 to 65 for 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:36 - WARNING -cassandra.cluster -  Downgrading core protocol version from 65 to 5 for 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:37 - ERROR -cassandra.connection -  Closing connection <AsyncoreConnection(2559248156608) 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:37 - WARNING -cassandra.cluster -  Downgrading core protocol version from 5 to 4 for 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:41 - INFO -cassandra.policies -  Using datacenter 'us-east-1' for DCAwareRoundRobinPolicy (via host '0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:44 - INFO -DataBase.py -   Successfully connected to Cluster in cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:44 - INFO -DataBase.py -   Successful in checking the existing tables in cassandra database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:44 - INFO -DataBase.py -  Table with the given table name already Exists in Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:55 - INFO -DataBase.py -  Successfully deleted the Table
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:52:57 - INFO -DataBase.py -  Successfully Created new table in Cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:25 - INFO -DataBase.py -  Successfully Inserted data into Cassandra Database
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:25 - INFO -DataBase.py -   Successful in DataFrame to Database 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:26 - INFO -DataBase.py -  Successfully converted the Database dataframe columns to same as Entered dataframe columns 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:26 - INFO -DataBase.py -  Successfully converted data in database to Dataframe 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:26 - INFO -main.py -   The dataset is successfully Loaded into Cassandra Database 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:26 - INFO -main.py -   The Table from Cassandra Database is successfully Loaded into Dataframe  
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:26 - INFO -missing_values.py -  Missing values handled Successfully with RANDOM SAMPLE IMPUTATION
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:26 - INFO -Handle_Categorical.py -  Removed object type unique Categories > 20
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:26 - INFO -Handle_Categorical.py -  Removed int64 type unique Categories > 20
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:26 - INFO -Handle_Categorical.py -  Handled object type Categories with Frequent categories imputation
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:26 - INFO -Outliers.py -  Outlier removed Successfully with IQR,LB,UB
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:26 - INFO -Feature_Scaling.py -  DataFrame Scaled with STANDARDIZATION (mean = 0 , variance = 1)
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:29 - INFO -Feature_Extraction.py -  Number of Columns Reduced From 8 to 5 using PCA with KNEE =5
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:29 - INFO -main.py -  train_test_split is successful with Train : 75 % , Test : 25 % 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:30 - INFO -Classification.py -   Logistic Regression is performed on the Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:30 - INFO -Classification.py -  Saved LogisticRegression Model as LogisticRegression_Model.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:48 - INFO -Classification.py -   Random Forest is performed on the Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:53:48 - INFO -Classification.py -  Saved RandomForest Model as RandomForest_Model.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:54:03 - INFO -Classification.py -   XGBoost is performed on the Dataset 
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:54:03 - INFO -Classification.py -  Saved XGBoost Model as XGBoost_Model.pickle
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:54:03 - INFO -Classification.py -  ['Logistic_Regression', 'Random_Forest', 'XGBoost'] [0.8571428571428572, 0.75, 0.7857142857142857]
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:54:03 - INFO -Classification.py -  Best_Model : Logistic_RegressionBest_Model_Score : 0.8571428571428572
+
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 12:54:03 - INFO -werkzeug -  127.0.0.1 - - [17/Aug/2021 12:54:03] "POST /AutoML HTTP/1.1" 200 -
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:43:53 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559248844400) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:43:53 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559248788544) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:43:53 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559248786144) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:43:53 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559247789120) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:43:53 - WARNING -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a has been marked down
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:43:53 - WARNING -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d has been marked down
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:43:53 - WARNING -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4 has been marked down
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:43:59 - WARNING -cassandra.pool -  Error attempting to reconnect to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a, scheduling retry in 2.12 seconds: errors=Timed out creating connection (5 seconds), last_host=None
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:44:01 - INFO -cassandra.pool -  Successful reconnection to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4, marking node up if it isn't already
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:44:01 - INFO -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4 may be up; will prepare queries and open connection pool
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:44:01 - INFO -cassandra.pool -  Successful reconnection to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d, marking node up if it isn't already
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:44:01 - INFO -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d may be up; will prepare queries and open connection pool
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:44:04 - INFO -cassandra.pool -  Successful reconnection to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a, marking node up if it isn't already
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:44:04 - INFO -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a may be up; will prepare queries and open connection pool
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:44:07 - INFO -cassandra.cluster -  Connection pools established for node 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:44:09 - INFO -cassandra.cluster -  Connection pools established for node 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 14:44:10 - INFO -cassandra.cluster -  Connection pools established for node 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:12 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559313753280) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:12 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559313838192) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:12 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559313174480) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:12 - WARNING -cassandra.connection -  Heartbeat failed for connection (2559248786000) to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:12 - WARNING -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4 has been marked down
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:12 - WARNING -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d has been marked down
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:12 - WARNING -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a has been marked down
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:17 - WARNING -cassandra.cluster -  [control connection] Error connecting to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3544, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 1620, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra\connection.py", line 840, in cassandra.connection.Connection.factory
+cassandra.OperationTimedOut: errors=Timed out creating connection (5 seconds), last_host=None
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:17 - INFO -cassandra.pool -  Successful reconnection to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4, marking node up if it isn't already
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:17 - INFO -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4 may be up; will prepare queries and open connection pool
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:19 - INFO -cassandra.pool -  Successful reconnection to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d, marking node up if it isn't already
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:19 - INFO -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d may be up; will prepare queries and open connection pool
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:19 - INFO -cassandra.pool -  Successful reconnection to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a, marking node up if it isn't already
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:19 - INFO -cassandra.cluster -  Host 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a may be up; will prepare queries and open connection pool
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:20 - INFO -cassandra.cluster -  Connection pools established for node 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:6f8eb713-9051-4ca8-8cf2-4b7fbc57a1e4
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:23 - WARNING -cassandra.cluster -  [control connection] Error connecting to 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3522, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3599, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3596, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3698, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1073, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1071, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1572, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:23 - INFO -cassandra.cluster -  Connection pools established for node 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:c61021e2-caae-49c8-9e6a-313b8bd0a54d
+DESKTOP-CBBFMQL - 192.168.0.5 - 17-Aug-21 16:43:26 - INFO -cassandra.cluster -  Connection pools established for node 0231bf99-51f9-4a48-a074-14f6631a4cfc-us-east-1.db.astra.datastax.com:29042:ad8b7533-e636-4390-8362-960dbc82d88a
